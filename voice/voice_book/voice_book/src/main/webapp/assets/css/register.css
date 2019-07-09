@@ -1,0 +1,315 @@
+body{
+    font-size: 12px;
+    color: #333333;
+    line-height: 18px;
+    padding: 0;
+    margin: 0;
+}
+div{
+    display: block;
+}
+ul,li,a{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.regiWrap{
+    position: absolute;
+    padding: 90px 0;
+    width: 100%;
+    height: 100%;
+    background: url("../imgs/signup-bg.jpg") no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.regTit-tc{
+    width: 100%;
+    height: 18px;
+    color: white;
+    font-size: 20px;
+    opacity: .7;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.regiBox{
+    position: relative;
+    width: 760px;
+    margin: 0 auto;
+    padding: 40px 0 34px;
+    background: rgba(0,0,0,0.30);
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.5);
+    border-radius: 10px;
+    height: 345px;
+}
+.regiLogo{
+    text-align: center;
+   // padding-bottom: 50px;
+    //margin-bottom: -50px;
+    width: 370px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.whiteLogo{
+    width: 220px;
+    height: 180px;
+    color: white;
+    font-size: 34px;
+    margin: 0 95px 0 95px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("../imgs/logo_f.png");
+}
+.regFormBox{
+    position: relative;
+    padding-bottom: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 340px;
+    height: 371px;
+
+}
+.regForm{
+    width: 340px;
+    height: 321px;
+    padding-left: 40px;
+    margin: 0;
+}
+
+input{
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    font: 400 13.3333px Arial;
+   border: none;
+   cursor: text;
+}
+.reg-nickname{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 20px;
+// color: white;
+    width: 20px;
+    height: 20px;
+    background: url("../imgs/yonghu.png") no-repeat;
+    background-size: cover;
+}
+.icon-nickname{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    font-size: 12px;
+    width: 200px;
+    height: 20px;
+}
+.icon-username{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    font-size: 12px;
+    width: 200px;
+    height: 20px;
+}
+.reg-password{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 20px;
+// color: white;
+    width: 20px;
+    height: 20px;
+    background: url("../imgs/mima.png") no-repeat;
+    background-size: cover;
+}
+.icon-password{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    font-size: 12px;
+    width: 200px;
+    height: 20px;
+}
+.regIcLt{
+    margin-bottom: 20px;
+    position: relative;
+    width: 300px;
+    height: 38px;
+}
+.regInput{
+    width: 300px;
+    height: 38px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.2);
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+.regForm input{
+    font-family: inherit;
+    outline: none;
+    margin: 0;
+    line-height: normal;
+    font-size: 100%;
+    vertical-align: middle;
+}
+.regIcLt-inl-b{
+    position: relative;
+    margin-bottom: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 140px;
+    height: 38px;
+}
+.regSelBox{
+    position: relative;
+    width: 140px;
+    height: 38px;
+    padding: 9px 10px 9px 20px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.2);
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+.regSelBtn{
+    float: right;
+    margin: 2px 12px 0 5px;
+}
+.regIcLt-inl-bfr{
+    margin-bottom:20px;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+}
+.regInput-brf{
+    width: 150px;
+    height: 38px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.2);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding-left: 20px;
+}
+.regInput-r{
+    width: 300px;
+    height: 38px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    background: rgba(255,255,255,0.2);
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+.regTxtBtn{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    color: #ff9070;
+    cursor: pointer;
+    font-weight: normal;
+    outline: none;
+    width: 110px;
+    height: 30px;
+    display: block;
+    border: none;
+    text-align: center;
+    background:rgba(255,255,255,0.2) ;
+}
+
+.regAgreeWrap{
+    width: 300px;
+    height: 18px;
+    margin: 30px 0 20px;
+    position: relative;
+}
+.icon-checkbox{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    //clip: rect(0,0,0,0);
+    width: 13px;
+    height: 13px;
+    //border: 1px solid red;
+}
+label{
+    cursor: default;
+}
+.regCheckLab{
+    color: #ccc;
+}
+.checkIcon{
+    width: 16px;
+    height: 16px;
+    margin: -2px 10px 0 0;
+    border: 0;
+    border-radius: 4px;
+    background: #fc5832;
+    position: relative;
+    cursor: default;
+}
+.btn-success{
+    width: 300px;
+    border-radius: 20px;
+    color: white;
+    background: #fc5832;
+    border: none;
+}
+.regSubmit{
+    display: block;
+    background: #fc5832;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 0;
+    color: white;
+    text-align: center;
+
+}
+.tc{
+    font-size: 14px;
+    color: white;
+    opacity: 0.7;
+    text-align: center;
+    margin-top: 30px;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+.link5{
+   color: #ff0909;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.state1{
+    color:#aaa;
+}
+.state2{
+    color:#000;
+}
+.state3{
+    color:red;
+}
+.state4{
+    color:green;
+}
+.regForm .regIcLt .regErrTex{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+
+}

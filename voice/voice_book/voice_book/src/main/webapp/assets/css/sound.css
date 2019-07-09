@@ -1,0 +1,435 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.sound-detail{
+    width: 72%;
+    height: 2560px;
+    margin:20px auto 0 auto;
+}
+
+.layout-main{
+    width: 820px;
+    height: 2580px;
+    overflow: hidden;
+    display: inline-block;
+
+}
+.sound-card{
+    width: 240px;
+    height: 1847px;
+    overflow: hidden;
+    display: inline-block;
+    float: right;
+}
+.voice-item{
+    width: 240px;
+    height: 662px;
+    overflow: hidden;
+}
+.sound-bookcontent{
+    width: 100%;
+    height: 240px;
+
+    margin-top: 32px;
+}
+.sound-bookcontent  img{
+    width: 176px;
+    margin-top: 24px;
+    height: 176px;
+    border-radius:50% ;
+    display: block;
+    margin-left: 16px;
+    float: left;
+}
+.sound-bookcontent .content-item{
+    width: 800px;
+    height: 300px;
+    float: left;
+    margin-top: 0;
+    margin-left: 40px;
+    font-size: 15px;
+}
+.sound-inf{
+    width: 760px;
+    height: 40px;
+    border-bottom: 1px solid  red;
+    float: left;
+}
+.see{
+    width: 96px;
+    height: 40px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 40px;
+    border-bottom:3px  solid orangered ;
+    color: orangered;
+}
+.info{
+    width: 759px;
+    height: 240px;
+    float: left;
+}
+.sound-item{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid   #2e6da4;
+}
+.sound-item  img{
+    width: 44px;
+    height: 44px;
+    display: block;
+    float: left;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+.sound-item  .fonta{
+    width: 157px;
+    height: 40px;
+    font-size: 13px;
+    float: left;
+    margin-top: 8px;
+    margin-left:16px;
+}
+.sound-author{
+    width: 240px;
+    height: 720px;
+   // margin-right: 52px;
+
+    float: right;
+
+}
+.comment-top{
+    width: 760px;
+    height: 40px;
+    font-size: 22px;
+    border-bottom: 1px solid  #cccccc;
+    float: left;
+}
+.comment-box{
+    width: 760px;
+    height: 230px;
+    margin-top: 16px;
+    float: left;
+}
+.commentbox{
+    height: 1660px;
+    width: 760px;
+    float: left;
+    overflow: hidden;
+}
+.comment-box  img{
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    border-radius:50% ;
+    display: block;
+    float: left;
+}
+.comment-box  textarea{
+    display: block;
+    float: left;
+    border-radius: 8px;
+    margin-left: 16px;
+    font-size: 15px;
+}
+.btnn{
+    width: 128px;
+    height: 32px;
+    float: right;
+    margin-top: 8px;
+    margin-right: 16px;
+}
+.btnn  input{
+    width: 64px;
+    height: 28px;
+    border-radius:6px ;
+    font-size: 13px;
+    background: rgb(255,133,55);
+    color: #ffffff;
+}
+.comment-inf{
+    width: 680px;
+    height: 80px;
+    margin-left: 8px;
+    float: left;
+}
+.ifunc{
+    float: right;
+    width: 160px;
+    height: 16px;
+}
+.ifunc i{
+    color: #c0c0c0;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.ifunc a{
+    width: 24px;
+    height: 16px;
+    margin-right: 16px;
+    text-decoration: none;
+    color: #000;
+}
+.com-box{
+    width: 760px;
+    height: 80px;
+    margin-top: 16px;
+    float: left;
+    border-bottom: 1px solid  #cccccc;
+    overflow: hidden;
+}
+.com-box  img{
+     width: 40px;
+     height: 40px;
+     margin-left: 8px;
+     border-radius:50% ;
+     display: block;
+     float: left;
+ }
+<!--底部 -->
+body{
+    padding: 0;
+    margin: 0;
+}
+.bottom-box{
+    width: 1080px;height: 700px;
+    margin: auto;
+    display: block;
+}
+.bottom-one{
+    width: 100%;height: 140px;
+    margin-top:30px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.bottom-one-part{
+    width: 24%;height: 100%;
+    float: left;
+}
+.bottom-one-part a{
+    color: #40404c;
+    font-size: 14px;
+    padding-right: 10px;
+}
+.bottom-one-part a:hover{
+    color: orange;
+}
+
+.iPhone{
+    width: 100px;height: 40px;
+     background-color:#0aa6e8;
+    float: left;
+    margin-right: 20px;
+}
+.iPhone a{
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	width: 100%;
+	height: 34px;
+	margin: auto;
+	display: block;
+}
+.Android{
+    width: 100px;height: 40px;
+   
+      background-color:#0aa6e8;
+    float: left;
+}
+.Android a{
+color: white;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	width: 100%;
+	height: 40px;
+	margin: auto;
+	display: block;
+}
+.bottom-two{
+    width: 1080px;height: 120px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.bottom-two-bottom{
+    width: 15%;height: 50%;
+    float: left;
+    margin-right: 15px;
+}
+.two-bottom-left{
+    width: 40px;height: 40px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    background: url("../imgs/kaifang.png") no-repeat;
+    background-size:cover;
+}
+.two-bottom-left2{
+    width: 40px;height: 40px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    background: url("../imgs/xipeiyin.png") no-repeat;
+    background-size:cover;
+}
+.two-bottom-left3{
+    width: 40px;height: 40px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    background: url("../imgs/xiaoya.png") no-repeat;
+    background-size:cover;
+}
+.two-bottom-left4{
+    width: 40px;height: 40px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    background: url("../imgs/chezai.png") no-repeat;
+    background-size:cover;
+}
+.two-bottom-left5{
+    width: 40px;height: 40px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    background: url("../imgs/qingxuetang.png") no-repeat;
+    background-size:cover;
+}
+.two-bottom-left6{
+    width: 40px;height: 40px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    background: url("../imgs/shaoer.png") no-repeat;
+    background-size:cover;
+}
+
+.two-bottom-right{
+    margin-top: 10px;
+}
+.two-bottom-right:hover{
+    cursor: pointer;
+}
+.two-bottom-right span{
+    font-size: 14px;
+}
+.two-bottom-right p{
+    font-size: 12px;
+    cursor: pointer;
+}
+.bottom-three{
+    width: 100%;height: 120px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.bottom-three-top p{
+    font-size: 12px;
+    color: #a3a3ac;
+    margin-bottom: 20px;
+}
+.bottom-three-bottom p{
+    font-size: 12px;
+    color: #a3a3ac;
+    line-height: 17px;
+    font-weight: bolder;
+}
+.bottom-three-bottom a{
+    font-size: 12px;
+    margin-right: 10px;
+    color: #a3a3ac;
+}
+.bottom-three-bottom a:hover{
+    color: orange;
+}
+.bottom-four{
+    width: 100%;height: 120px;
+    text-align: center;
+}
+.bottom-four-one a{
+    font-size: 14px;
+    color: #72727b;
+}
+.bottom-four-one a:hover{
+    color: orange;
+}
+.bottom-four-two p{
+    font-size: 12px;
+    line-height: 25px;
+    color: #a3a3ac;
+    letter-spacing: 0;
+    text-align: center;
+}
+.bottom-four-three p{
+    font-size: 12px;
+    line-height: 25px;
+    color: #a3a3ac;
+    letter-spacing: 0;
+    text-align: center;
+}
+.bottom-four-four p{
+    font-size: 12px;
+    line-height: 25px;
+    color: #a3a3ac;
+    letter-spacing: 0;
+    text-align: center;
+}
+.bottom-four-five{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-left: 200px;
+}
+.bottom-four-five-part{
+    width: 15%;height: 100%;
+    float: left;
+}
+.bottom-four-five-part2{
+    width: 15%;height: 100%;
+    float: left;
+}
+.bottom-four-five-part3{
+    width: 15%;height: 100%;
+    float: left;
+}
+.bottom-four-five-part4{
+    width: 15%;height: 100%;
+    float: left;
+}
+.part-img{
+    width: 20px;height: 20px;
+    background: url("../imgs/hulianwang.png")no-repeat;
+    background-size:cover ;
+    float: left;
+}
+.part-img2{
+    width: 20px;height: 20px;
+    background: url("../imgs/youhai.png")no-repeat;
+    background-size:cover ;
+    float: left;
+}
+.part-img3{
+    width: 20px;height: 20px;
+    background: url("../imgs/ertongseqing.png")no-repeat;
+    background-size:cover ;
+    float: left;
+}
+.part-img4{
+    width: 20px;height: 20px;
+    background: url("../imgs/chengxin.png")no-repeat;
+    background-size:cover ;
+    float: left;
+}
+.bottom-four-five-part span{
+    font-size: 12px;
+    line-height: 25px;
+    color: #a3a3ac;
+}
+.bottom-four-five-part span:hover{
+    cursor: pointer;
+}
+div{
+    border-radius: 5px;
+}
