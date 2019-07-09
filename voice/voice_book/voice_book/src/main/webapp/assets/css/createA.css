@@ -1,0 +1,234 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+a{
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+}
+.top-left{
+
+    width: 8%;
+    height: 35px;
+    text-align: center;
+    line-height:35px;
+    color: rgb(255,99,60);
+    border:1px solid rgb(222,222,222);
+    border-bottom: none;
+    border-radius:5px ;
+    font-size: 14px;
+    float: left;
+
+}
+.top-right{
+
+    width: 91%;
+    height: 35px;
+    border-bottom: 1px solid rgb(222,222,222);
+    float: left;
+}
+.middle{
+    width: 99%;
+    height: 500px;
+    border: 1px solid rgb(222,222,222);
+    border-top: none;
+}
+.alname{
+    width: 55%;
+    height: 20px;
+    margin-top: 40px;
+    margin-left: 5%;
+}
+.middle span{
+    width: 20%;
+    height: 20px;
+    line-height: 20px;
+    text-align: right;
+    display: block;
+    font-size: 14px;
+    color: rgb(222,222,222);
+    float: left;
+}
+.middle input{
+
+    margin-left: 15px;
+
+
+    border-radius:5px ;
+}
+.alname input{
+    width: 70%;
+    height: 20px;
+    margin-left: 15px;
+    display: block;
+    float: left;
+
+    border-radius:5px ;
+}
+
+.alcover{
+    width: 55%;
+    height: 80px;
+    margin-top: 50px;
+    margin-left: 5%;
+
+}
+.alcover .cover-box{
+    width: 16%;
+    height: 80px;
+
+    border: 1px  dashed rgb(222,222,222);
+    float: left;
+    margin-left: 15px;
+}
+.alcate{
+    width: 55%;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+#categ{
+    width: 30%;
+    height:30px;
+    margin-left: 15px;
+
+}
+.alpublic{
+    width: 55%;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+
+.alagree{
+    width: 49%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 5%;
+    text-align: center;
+}
+.albutton{
+    width: 25%;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+.myAlbum-box{
+    width: 98%;
+    height: 500px;
+    margin-top: 20px;
+}
+.m-top{
+    width: 150px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+    color: rgb(71,71,71);
+    text-align: center;
+}
+.m-icards{
+    width: 98%;
+    height: 35px;
+    margin-top: 50px;
+}
+
+.m-idcard{
+    width: 8%;
+    height: 100%;
+    color: rgb(153,153,153);
+    line-height: 35px;
+    text-align: center;
+    font-size: 14px;
+    float: left;
+    background: rgb(250,250,250);
+    margin-right: 5px;
+    border-radius:5px ;
+    cursor: pointer;
+}
+.m-idcard:nth-child(1){
+    color: rgb(252,98,68);
+    background: white;
+}
+.m-idcard:hover{
+    color: rgb(252,98,68);
+    background: white;
+}
+
+
+
+
+ul{
+    width: 95%;
+    height: 120px;
+    border-bottom:1px solid rgb(233,233,232);
+    list-style: none;
+    margin-left: 2%;
+}
+
+ul li{
+    text-align: center;
+    width: 15%;
+    float: left;
+}
+ul li:nth-child(1){
+    text-align: left;
+    width: 50%;
+}
+ul li:nth-child(4){
+    width: 20%;
+}
+.m-middle{
+    width: 98%;
+
+
+}
+.m-middle  img{
+    width: 15%;
+    height: 100px;
+    float: left;
+    display: block;
+}
+.mmname{
+    font-size: 14px;
+    width: 80%;
+    margin-left: 15px;
+    height: 20px;
+    display: block;
+    float: left;
+}
+.mmpu{
+
+    width: 30px;
+    color: deepskyblue;
+    height: 18px;
+    font-size: 13px;
+    display: block;
+    margin-left: 20px;
+    margin-top: 60px;
+    float: left;
+    text-align: center;
+    border: 1px solid deepskyblue;
+    border-radius:5px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

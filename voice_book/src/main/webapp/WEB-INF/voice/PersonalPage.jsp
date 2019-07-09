@@ -181,21 +181,21 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 <div class="info-bottom-row2">
                     <div class="row2-one row2-border">
                         <div class="row2-one-img"></div>
-                        <span>0</span>
+                        <span>797.7w</span>
                     </div>
-                   <!--  <div class="row2-two row2-border">
+                  <div class="row2-two row2-border">
                         <div class="row2-two-img"></div>
                         <span>男神</span>
                     </div>
                     <div class="row2-three row2-border">
                         <div class="row2-three-img"></div>
                         <span>天蝎座</span>
-                    </div> -->
+                    </div>
 
                 </div>
                 <div class="info-bottom-row3">
                     <div class="row3-img"></div>
-                    <span>未知</span>
+                    <span>江西省·南昌市</span>
                 </div>
                 <div class="info-bottom-row4">
                     <div class="row4-one">
