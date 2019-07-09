@@ -1,0 +1,658 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    display: block;
+}
+ul,li,a{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    width: 100%;
+    height: 60px;
+    box-shadow:2px 2px  2px #cccccc;
+//overflow: hidden;
+}
+.top-content{
+    margin: auto;
+    width: 75%;
+    height: 100%;
+}
+.top-content  .logo{
+    width: 180px;
+    height:60px;
+    display: block;
+   /*  margin-top: 10px;
+    margin-left: 20px; */
+    float: left;
+}
+.top-content a{
+    text-decoration: none;
+    color: #3c3c3c;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    float: left;
+}
+.topA{
+    width: 80px;
+    height: 60px;
+    line-height: 60px;
+}
+.fbox{
+    display: block;
+    width: 340px;
+    height: 40px;
+    border: 1px solid  orangered;
+    border-radius:30px;
+    color: #333333;
+    float: left;
+    margin: 10px 20px 10px 30px;
+    overflow: hidden;
+}
+.fbox  input{
+    display: inline-block;
+    width: 260px;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 20px;
+    border: 1px solid white;
+    outline: 0;
+}
+.fbox-right{
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    float: right;
+    background: rgb(255,149,106);
+    border-radius: 0;
+}
+.iconsousuo{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 13px;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    background: url("../imgs/sousuo.png") no-repeat;
+    background-size:cover ;
+}
+.top-right{
+    width: 320px;
+    height: 60px;
+    float: right;
+    line-height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.iconNav-item{
+    position: relative;
+    width: 80px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 60px;
+    height: 60px;
+
+}
+.iconNav-item a{
+    color: #40404c;
+    background-color: transparent;
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+}
+.ic_upload{
+    width: 30px;
+    height: 30px;
+    color: #ccc;
+    background: url("../imgs/caozuo-shangchuan-upload.png") no-repeat;
+    background-size: cover;
+    display: inline-block;
+
+}
+.ic_voiceBox{
+    width:30px;
+    height:30px;
+    color: #ccc;
+    display: inline-block;
+    background: url("../imgs/yinxiang.png") no-repeat;
+    background-size: cover;
+
+}
+.title_tvdQ{
+    width: 78px;
+    height: 25%;
+    font-size: 12px;
+    margin-top: -18px;
+    line-height: 25%;
+    font-weight: 400;
+    color: #72727b;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+.iconNav-item-user{
+    width: 60px;
+    height: 38px;
+    margin-left: 20px;
+    position: relative;
+    display: inline-block;
+    line-height: 1;
+    vertical-align: top;
+    text-align: center;
+}
+
+.user-notice{
+    display: inline-block;
+    position: relative;
+}
+.user-notice a{
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+}
+.img_pZ5{
+    border-radius: 20px;
+    width: 37px;
+    border: 0;
+    vertical-align: bottom;
+}
+
+/*首行详情 导航栏下拉*/
+.nav-item-detail{
+    /* width: 100%;*/
+    width: 340px;
+    height:0;
+//height:229px;
+    background: white;
+    position: absolute;
+    left: -50px;
+    top: 50px;
+    transition: all 0.3s linear;/*过渡*/
+    z-index: 520;/*层级关系，z-index用来调整层级*/
+    overflow: hidden;/*溢出隐藏*/
+    border-top:1px solid #e0e0e0;
+    margin-left: -65px;
+//border: 1px solid red;
+
+}
+.detail-box-list{
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    display: none;
+}
+.detail-box-top{
+    width: 100%;
+    height: 70px;
+    position: relative;
+
+}
+.detail-box-content{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+
+}
+.detail-box-nickname{
+
+    display: inline-block;
+    width: 200px;
+    height: 100%;
+    float: left;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    line-height: 100%;
+}
+.icon-xiaoxi{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 5px 5px;
+    background: url("../imgs/xiaoxi.png") no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.icon-xiaoxi:hover{
+    background: url("../imgs/xiaoxi2.png") no-repeat;
+    background-size: cover;
+}
+.icon-setting{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 5px 5px;
+    background: url("../imgs/shezhi.png") no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.icon-setting:hover{
+    background: url("../imgs/shezhi2.png") no-repeat;
+    background-size: cover;
+}
+.icon-exit{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 5px 5px;
+    background: url("../imgs/tuichu.png") no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.icon-exit:hover{
+    background: url("../imgs/tuichu2.png") no-repeat;
+    background-size: cover;
+}
+.detail-box-bottom{
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+
+}
+.detail-shortcut{
+    display: block;
+    width: 100px;
+    height: 20px;
+    color: #72727b;
+}
+.iconNav-item2{
+    position: relative;
+    width: 60px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 60px;
+    height: 60px;
+    margin-left: 5px;
+}
+.iconNav-item2 a{
+    color: #40404c;
+    background-color: transparent;
+    text-decoration: none;
+    outline: 0;
+    cursor: pointer;
+}
+.ic_zhuye{
+    width: 20px;
+    height: 20px;
+    color: #ccc;
+    background: url("../imgs/zhuye.png") no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+.ic_zhuye:hover{
+    background: url("../imgs/zhuye2.png") no-repeat;
+    background-size: cover;
+}
+.ic_dingyue{
+    width: 20px;
+    height: 20px;
+    color: #ccc;
+    background: url("../imgs/xingxing.png") no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+.ic_dingyue:hover{
+    background: url("../imgs/xingxing2.png") no-repeat;
+    background-size: cover;
+}
+.ic_lishi{
+    width: 20px;
+    height: 20px;
+    color: #ccc;
+    background: url("../imgs/lishi.png") no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+.ic_lishi:hover{
+    background: url("../imgs/lishi2.png") no-repeat;
+    background-size: cover;
+}
+.ic_yigou{
+    width: 20px;
+    height: 20px;
+    color: #ccc;
+    background: url("../imgs/gouwuche.png") no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+.ic_yigou:hover{
+    background: url("../imgs/gouwuche2.png") no-repeat;
+    background-size: cover;
+}
+.ic_xihuan{
+    width: 20px;
+    height: 20px;
+    color: #ccc;
+    background: url("../imgs/xihuan.png") no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+.ic_xihuan:hover{
+    background: url("../imgs/xihuan2.png") no-repeat;
+    background-size: cover;
+}
+.title_tvdQ2{
+    width: 60px;
+    height: 25%;
+    font-size: 12px;
+    margin-top: -18px;
+    line-height: 25%;
+    font-weight: 400;
+    color: #72727b;
+}
+
+
+
+
+/**内容*/
+.main-content{
+    display: block;
+    width: 1080px;
+    margin: 20px auto 0;
+    min-height: 260px;
+}
+.k1je{
+    width: 1080px;
+    height: 1062px;
+}
+.layout-main{
+    width: 820px;
+    float: left;
+    height: 675px;
+}
+.myPage-tabs{
+    width: 820px;
+    height: 75px;
+}
+/*.myPage-tab-nav{
+    width: 820px;
+    height: 55px;
+    background: white;
+    position: relative;
+    padding: 15px 0 15px 20px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #72727b;
+    border: 1px solid blue;
+}*/
+.content{
+    display: none;
+    width: 820px;
+    height: 600px;
+    margin-top: 8px;
+}
+.active{
+    background-color: white;
+    border-bottom: 3px solid  #f86442 ;
+}
+button{
+    margin-top: 5px;
+    list-style-type: none;
+    width: 75px;
+    height: 40px;
+    border: none;
+}
+button>span{
+    font-size: 18px;
+    line-height: 1.4;
+    color: #72727b;
+}
+button:first-child{
+    margin-left: 5px;
+}
+.icon{
+    fill: currentColor;
+}
+.icon-wode-dingyue{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background: url("../imgs/xingxing.png") no-repeat;
+    background-size: cover;
+}
+.icon-wode-tingguo{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background: url("../imgs/lishi.png") no-repeat;
+    background-size: cover;
+}
+.icon-wode-yigou{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background: url("../imgs/gouwuche.png") no-repeat;
+    background-size: cover;
+}
+.icon-wode-xihuan{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background: url("../imgs/xihuan.png") no-repeat;
+    background-size: cover;
+}
+.empty-result{
+    display: inline-block;
+    margin: 50px auto 30px 300px;
+}
+.msg{
+    color: #72727b;
+    font-size: 16px;
+    width: 240px;
+    height: 21px;
+    text-align: center;
+    margin: auto;
+}
+._jA{
+    width: 240px;
+    height: 261px;
+    border: 0;
+    vertical-align: bottom;
+    margin: auto;
+    display: block;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+.layout-side{
+    width: 235px;
+    height: 1062px;
+    margin-left: 20px;
+    float: left;
+    position: relative;
+}
+.user-card{
+    padding: 20px 10px 10px 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 240px;
+    height: 192px;
+
+}
+.A5L{
+    padding: 0 0 20px;
+    border-bottom: 1px solid rgb(232,232,232);
+}
+.user-box{
+    width: 220px;
+    height: 80px;
+}
+.user-pic{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+  /*   background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("${person.header};"); */
+}
+.flex-center-v{
+    float: left;
+    display: flex;
+    height: 40px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.user-box_title{
+    font-size: 14px;
+    line-height: 1.43;
+    color: #40404c;
+}
+.user-card_intro{
+    width: 220px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 1.67;
+    color: #a3a3ac;
+}
+
+.user-card_link-box{
+    padding-top: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width: 220px;
+    height: 30px;
+}
+.user-card_link{
+    font-size: 12px;
+    color: #a3a3ac;
+}
+._A5L{
+    color: #72727b;
+}
+.xuicon{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background: url("../imgs/dayuhao.png") no-repeat;
+    background-size: cover;
+}
+.recommend-list{
+    position: relative;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: white;
+    width: 240px;
+    height: 852px;
+}
+.recommend-head{
+    width: 220px;
+    height: 42px;
+    border-bottom: 1px solid #e8e8e8;
+    margin: 0 10px;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    letter-spacing: 0;
+}
+.recommend-head-title{
+    width: 220px;
+    height: 41px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0 10px 0;
+}
+.icon-tuijian{
+    width: 25px;
+    height: 25px;
+    margin-top: 1px;
+    margin-right: 5px;
+    vertical-align: text-top;
+   background: url("../imgs/tuijian.png") no-repeat;
+    background-size: cover;
+}
+.recommend-body{
+    width: 220px;
+    height: 810px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+.general-list{
+    width: 220px;
+    height: 810px;
+}
+.item{
+    width: 220px;
+    height: 81px;
+    display: inline-block;
+}
+.item-link{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.pic-box{
+    vertical-align: middle;
+    height: 100%;
+    max-width: 60px;
+    display: inline-block;
+    margin-right: 10px;
+}
+a{
+    color: #40404c;
+    cursor: pointer;
+    outline: 0;
+}
+.pic-wrap{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    line-height: 60px;
+    background: url("../imgs/baby.png") no-repeat;
+    background-size: cover;
+}
+.item-content{
+    width: 84px;
+    height: 49px;
+    display: inline-block;
+    max-width: 150px;
+    vertical-align: middle;
+}
+.item-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 40px;
+    color: #40404c;
+    font-size: 14px;
+    font-weight: 400;
+    width: 84px;
+    height: 20px;
+}
+.sub-title{
+    width: 84px;
+    height: 17px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 3px;
+    color: #a3a3ac;
+}
