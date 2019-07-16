@@ -2,6 +2,9 @@ package entity;
 
 import java.io.Serializable;
 
+import org.apache.ibatis.type.Alias;
+
+@Alias("UserBean")
 public class User implements Serializable {
 
 	private static final long serialVersionUID = -3363120264501521428L;
